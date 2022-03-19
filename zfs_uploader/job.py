@@ -15,7 +15,7 @@ from zfs_uploader.zfs import (create_filesystem, get_snapshot_send_size,
 KB = 1024
 MB = KB * KB
 S3_MAX_CONCURRENCY = 20
-S3_MAX_PART_NUMBER = 10000
+S3_MAX_PART_NUMBER = 1000
 
 
 class BackupError(Exception):
